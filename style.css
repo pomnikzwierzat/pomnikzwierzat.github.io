@@ -1,0 +1,87 @@
+:root {
+    --background-main: black;
+    --background-row: grey;
+    --text: white;
+}
+
+html {
+    font-size: 16px;
+}
+
+@media (max-width: 900px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    html {
+        font-size: 13px;
+    }
+}
+
+body {
+    background: var(--background-main);
+}
+
+.container {
+    width: 100%;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: 7rem;
+}
+
+h1 {
+    color: var(--text);
+    font-size: 3rem;
+    width: 80%;
+}
+
+.row {
+    display: flex;
+    width: 80%;
+    height: 10rem;
+    background: var(--background-row);
+    border-radius: 5px;
+    margin: 0 auto 4rem auto;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: var(--text);
+    font-size: 1.5rem;
+}
+
+.who {
+    width: 33.333%;
+}
+
+.when {
+    width: 33.333%;
+}
+
+.how {
+    width: 33.333%;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    color: var(--text);
+    font-size: 1.5rem;
+    height: 12rem;
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.info {
+    width: 80%;
+}
