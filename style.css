@@ -46,7 +46,7 @@ h1 {
     display: flex;
     width: 80%;
     height: 10rem;
-    background: var(--background-row);
+    background: var(--background-main);
     border-radius: 5px;
     margin: 0 auto 4rem auto;
 }
