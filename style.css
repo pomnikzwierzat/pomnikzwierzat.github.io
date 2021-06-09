@@ -7,6 +7,7 @@
 html {
     font-size: 16px;
     font-family: 'EB Garamond', sans-serif;
+    color: var(--text);
 }
 
 @media (max-width: 900px) {
@@ -38,7 +39,6 @@ body {
 }
 
 h1 {
-    color: var(--text);
     font-size: 3rem;
     width: 80%;
     letter-spacing: 1px;
@@ -73,7 +73,6 @@ h1 {
     justify-content: center;
     align-items: center;
     height: 100%;
-    color: var(--text);
     font-size: 1.5rem;
 }
 
@@ -92,7 +91,6 @@ h1 {
 .contact {
     display: flex;
     justify-content: center;
-    color: var(--text);
     font-size: 1.5rem;
     height: 12rem;
     margin-top: 10rem;
